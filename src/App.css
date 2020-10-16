@@ -1,5 +1,33 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+.tab1 {
+  margin-left: 8px;
+}
+.tab2 {
+  margin-left: 16px;
+}
+
+.flex {
+  display: flex;
+}
+.output,
+.inputBox {
+  width: 40%;
+  border: 1px solid royalblue;
+  min-height: 500px;
+  margin: 0;
+}
+.block {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid teal;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 0 16px;
 }
 
 .App-logo {
